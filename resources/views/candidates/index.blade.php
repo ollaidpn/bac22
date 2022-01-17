@@ -1052,20 +1052,19 @@
                                         <table id="example" class="table table-striped table-bordered" style="width:100%">
                                             <thead>
                                                 <tr>
-                                                    <th>Prenom</th>
-                                                    <th>Nom</th>
+                                                    <th>Nom complet</th>
                                                     <th>Telephone</th>
-                                                    <th>Résidence</th>
 
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                @foreach ($candidate as $candidat)
                                                <tr>
-                                                <td>{{$candidat->prenom}}</td>
-                                                <td>{{$candidat->nom}}</td>
+                                                <td>{{$candidat->prenom}} {{$candidat->nom}} <br>
+                                                    {{$candidat->residence}}
+                                                </td>
+
                                                 <td>{{$candidat->telephone}}</td>
-                                                <td>{{$candidat->residence}}</td>
 
                                                  </tr>
                                                @endforeach
@@ -1073,10 +1072,8 @@
                                             </tbody>
                                             <tfoot>
                                                 <tr>
-                                                    <th>Prenom</th>
-                                                    <th>Nom</th>
+                                                    <th>Nom complet</th>
                                                     <th>Telephone</th>
-                                                    <th>Résidence</th>
                                                 </tr>
                                             </tfoot>
                                         </table>
