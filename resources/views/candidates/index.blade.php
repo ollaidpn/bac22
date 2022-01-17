@@ -6,22 +6,19 @@
         <meta charset="utf-8" />
         <title>Advance Tables | Symox - Admin & Dashboard Template</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
-        <meta content="Themesbrand" name="author" />
+        <meta content="Bac 22" name="description" />
+        <meta content="Themesbrand" name="ollaidpn" />
         <!-- App favicon -->
-        <link rel="shortcut icon" href="{{asset('assets/images/favicon.ico')}}">
 
         <!-- gridjs css -->
         <link rel="stylesheet" href="{{asset('assets/libs/gridjs/theme/mermaid.min.css')}}">
 
         <!-- Bootstrap Css -->
         <link href="{{asset('assets/css/bootstrap.min.css')}}" id="bootstrap-style" rel="stylesheet" type="text/css" />
-        <!-- Icons Css -->
-        <link href="{{asset('assets/css/icons.min.css')}}" rel="stylesheet" type="text/css" />
-        <!-- App Css-->
+
         <link href="{{asset('assets/css/app.min.css')}}" id="app-style" rel="stylesheet" type="text/css" />
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
+        {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css"> --}}
         <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/dataTables.bootstrap4.min.css">
 
 
@@ -1135,23 +1132,12 @@
         <!-- Right bar overlay-->
         <div class="rightbar-overlay"></div>
 
-        <!-- JAVASCRIPT -->
-        <script src="{{asset('assets/libs/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-        <script src="{{asset('assets/libs/metismenujs/metismenujs.min.js')}}"></script>
-        <script src="{{asset('assets/libs/simplebar/simplebar.min.js')}}"></script>
-        <script src="{{asset('assets/libs/feather-icons/feather.min.js')}}"></script>
 
-        <!-- gridjs js -->
-        <script src="{{asset('assets/libs/gridjs/gridjs.umd.js')}}"></script>
-
-        <script src="{{asset('assets/js/pages/gridjs.init.js')}}"></script>
-
-        <script src="{{asset('assets/js/app.js')}}"></script>
 
         <script>
             $(document).ready(function() {
-    $('#example').DataTable();
-} );
+                $('#example').DataTable();
+            } );
         </script>
         <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
         <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
