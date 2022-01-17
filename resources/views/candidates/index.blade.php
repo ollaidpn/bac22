@@ -1046,7 +1046,7 @@
                             <div class="col-lg-6">
                                 <div class="card">
                                     <div class="card-header">
-                                        <h4 class="card-title mb-0">Liste des candidats</h4>
+                                        <h4 class="card-title mb-0">Liste des candidats (<code>{{$candidate->count()}} enregistrés</code>)</h4>
                                     </div><!-- end card header -->
                                     <div class="card-body">
                                         <table id="example" class="table table-striped table-bordered" style="width:100%">
@@ -1106,13 +1106,10 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-sm-6">
-                                <script>document.write(new Date().getFullYear())</script> &copy;.
+                                <script>document.write(new Date().getFullYear())</script> &copy;                                <code>fait par</code>  <a href="https://illugraph-ic.com/cv" target="_blank" class="text-reset">Ollaid Pape Ndiouga</a>
+
                             </div>
-                            <div class="col-sm-6">
-                                <div class="text-sm-end d-none d-sm-block">
-                                <code>fait par</code>  <a href="https://illugraph-ic.com/cv" target="_blank" class="text-reset">Ollaid Pape Ndiouga</a>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </footer>
